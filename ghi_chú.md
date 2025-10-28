@@ -118,4 +118,4 @@ Kết nối repo GitHub	git remote add origin <URL>
 Push code	git push origin main
 Tạo GitHub Actions	.github/workflows/terraform.yml
 Workflow cơ bản	init → validate → plan
-Kiểm tra kết quả	Tab Actions trên GitHub
+Kiểm tra kết
