@@ -10,3 +10,5 @@ terraform.tfstate.backup
 
 # Crash logs
 crash.log
+localstack-clean/
+localstack-temp/
