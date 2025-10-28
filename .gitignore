@@ -1,0 +1,12 @@
+# localstack-terra-demo
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Local state
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
