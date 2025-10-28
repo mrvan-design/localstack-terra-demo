@@ -1,0 +1,15 @@
+services:
+  localstack:
+    image: localstack/localstack:3.5
+    container_name: localstack
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=s3,ec2
+      - DEBUG=1
+      - DATA_DIR=/data  # dùng /data thay vì /tmp/localstack
+    volumes:
+      - localstack-data:/data
+
+volumes:
+  localstack-data:
